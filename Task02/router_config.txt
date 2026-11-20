@@ -1,0 +1,16 @@
+! Task 2 router configuration template
+! Example addressing only; adjust if required by your lab.
+enable
+configure terminal
+interface gigabitEthernet 0/0
+ description OFFICE_HUBS_AND_SWITCH
+ ip address 192.168.10.1 255.255.255.0
+ no shutdown
+exit
+interface gigabitEthernet 0/1
+ description IP_PHONE_SWITCH
+ ip address 192.168.20.1 255.255.255.0
+ no shutdown
+exit
+end
+show ip interface brief
