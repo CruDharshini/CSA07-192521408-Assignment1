@@ -1,10 +1,37 @@
-# CSA07 – Assignment 1
+# CSA07 – Computer Networks Assignment 1
 
-This repository is for practical files and programs only. Written assignment answers are not stored here.
+This repository contains practical files, executable programs, verified sample outputs and evidence templates only. Written assignment answers are not stored here.
 
-## Python programs
+## Environment
 
-Run these from the repository root:
+- Student: Dharshini
+- Register number: 192521408
+- Department: Information Technology
+- OS used by student: record the actual OS/version used before submission.
+- Python: Python 3. Record the local version with `python --version`.
+- Cisco Packet Tracer: record the installed version when creating the .pkt files.
+- Wireshark: record the installed version when creating captures.
+
+## Task folders
+
+| Folder | Practical files / evidence |
+|---|---|
+| Task01 | FILES_TO_ADD.md – supporting traffic calculation evidence |
+| Task02 | FILES_TO_ADD.md – office.pkt topology and marked screenshot required |
+| Task03 | encapsulation.py, encapsulation_output.txt, FILES_TO_ADD.md |
+| Task04 | capacity.py, capacity_output.txt, FILES_TO_ADD.md |
+| Task05 | FILES_TO_ADD.md – wireless planning evidence if created |
+| Task06 | FILES_TO_ADD.md – ethtool before/after output and switch config |
+| Task07 | crc.py, crc_output.txt, FILES_TO_ADD.md |
+| Task08 | hamming.py, hamming_output.txt, FILES_TO_ADD.md |
+| Task09 | window.py, window_output.txt, FILES_TO_ADD.md |
+| Task10 | measurement_table.csv, FILES_TO_ADD.md – own ping/traceroute and Wireshark evidence required |
+| Task11 | FILES_TO_ADD.md – optional design diagram/calculation evidence |
+| Task12 | FILES_TO_ADD.md – revised.pkt and revised topology screenshot required |
+
+## Run the Python programs
+
+Run from the repository root:
 
 ```bash
 python Task03/encapsulation.py
@@ -14,10 +41,19 @@ python Task08/hamming.py
 python Task09/window.py
 ```
 
-Python 3 is required. Each script prints its output in the terminal.
+The corresponding `*_output.txt` files contain outputs verified by executing the committed Python logic in the assistant's execution environment. Re-run the programs locally and capture your own terminal screenshots for submission.
 
-## Practical evidence to add
+## Evidence that must be created on the student's computer
 
-Add only files produced by carrying out the practical work, such as Packet Tracer projects (.pkt), Wireshark captures (.pcapng), screenshots, actual command outputs, and additional program files required by the practical tasks.
+The following files are not fabricated or included because they must come from the actual tools and network:
+- `Task02/office.pkt` and marked topology screenshot.
+- `Task03/frame_capture.pcapng` and labelled Wireshark screenshot.
+- `Task06/ethtool_before.txt`, `ethtool_after.txt` and any corresponding switch-port configuration evidence.
+- `Task10/ping_output.txt`, `traceroute_output.txt`, completed `measurement_table.csv`, `connection_capture.pcapng` and labelled Wireshark screenshot.
+- `Task12/revised.pkt` and revised topology screenshot.
 
-Do not add written task answers to this repository.
+See each task's `FILES_TO_ADD.md` for the specific filenames and purpose. Do not replace actual measurements with sample data.
+
+## Submission reminder
+
+The assignment report containing calculations, diagrams, interpretations and written answers is separate from this repository. This repository is intended for code, project files, configurations, actual outputs and evidence.
