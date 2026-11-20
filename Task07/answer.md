@@ -88,7 +88,7 @@ Internet checksum = **0x7A8C**.
 
 - Even parity detects any odd number of bit flips, but misses any even number of bit flips (for example, 2-bit and 4-bit errors).
 - CRC-3 detects all single-bit errors and all burst errors of length up to 3 bits. It can miss some longer patterns, including an error polynomial divisible by 1011.
-- Example: error pattern 1011 is missed by CRC-3 when aligned as a generator multiple. A two-bit error is caught by even parity; CRC-3 also detects a two-bit error for this generator over ordinary frame lengths.
+- Example: error pattern 1011 is missed by CRC-3 when aligned as a generator multiple. Even parity catches any two-bit error because it changes the parity. CRC-3 catches many two-bit errors, but this generator has period 7, so a two-bit error with bit positions separated by 7 can be an undetected pattern. The exact result depends on the frame length and bit positions.
 - A four-bit error with an even number of flipped bits is missed by simple even parity. CRC may detect it, but a pattern that is a multiple of 1011 can pass CRC.
 
 CRC is stronger for network frames because it checks a polynomial remainder over the entire bit sequence. Parity is simpler but provides weaker detection.
