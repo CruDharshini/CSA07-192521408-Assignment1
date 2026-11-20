@@ -1,17 +1,9 @@
 # CSA07 – Computer Networks Assignment 1
 
-This repository contains practical files, executable programs, verified sample outputs and evidence templates only. Written assignment answers are not stored here.
-
-## Environment
-
 - Student: Dharshini
 - Register number: 192521408
 - Department: Information Technology
-- OS used by student: record the actual OS/version used before submission.
-- Python: Python 3. Record the local version with `python --version`.
-- Cisco Packet Tracer: record the installed version when creating the .pkt files.
-- Wireshark: record the installed version when creating captures.
-
+  
 ## Task folders
 
 | Folder | Practical files / evidence |
