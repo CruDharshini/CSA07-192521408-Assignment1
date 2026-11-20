@@ -1,0 +1,6 @@
+transmitted: 1101011011100
+no error   : True
+1-bit error: False
+3-bit burst: False
+
+Note: Output verified by executing the committed Python logic in this environment. Re-run locally and capture your own terminal screenshot for submission.
