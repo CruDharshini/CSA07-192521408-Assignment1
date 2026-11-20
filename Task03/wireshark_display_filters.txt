@@ -1,0 +1,21 @@
+Task 3 Wireshark display filters
+
+Ethernet + IPv4 + TCP:
+eth && ip && tcp
+
+TCP packets:
+tcp
+
+IPv4 packets:
+ip
+
+Modbus TCP, if present:
+tcp.port == 502
+
+ICMP:
+icmp
+
+Expand these packet sections in Packet Details:
+1. Ethernet II
+2. Internet Protocol Version 4
+3. Transmission Control Protocol
