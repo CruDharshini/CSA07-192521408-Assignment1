@@ -1,0 +1,6 @@
+Telephone line   Shannon limit       0.03 Mbps
+Cat6 pair        Shannon limit    3321.96 Mbps
+Wi-Fi 6 channel  Shannon limit    1329.50 Mbps
+Nyquist, 3,100 Hz with 4 levels: 12.4 kbps
+
+Note: Output verified by executing the committed Python logic in this environment. Re-run locally and capture your own terminal screenshot for submission.
