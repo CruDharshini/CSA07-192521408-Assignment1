@@ -1,0 +1,18 @@
+Task 10 Wireshark display filters
+
+ICMP ping and traceroute:
+icmp
+
+ICMP time-exceeded replies:
+icmp.type == 11
+
+TCP:
+tcp
+
+UDP:
+udp
+
+All IPv4:
+ip
+
+Expand Ethernet II, IPv4 and the relevant ICMP/TCP/UDP section in Packet Details.
