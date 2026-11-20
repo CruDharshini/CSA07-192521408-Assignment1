@@ -1,0 +1,7 @@
+Network,Example subnet,Example gateway,Notes
+Robot control,10.10.1.0/24,10.10.1.1,Priority control traffic
+AGV private 5G concept,10.10.2.0/24,10.10.2.1,50 AGVs
+CCTV,10.10.3.0/24,10.10.3.1,Video traffic
+Sensors,10.10.4.0/24,10.10.4.1,Telemetry
+Office Wi-Fi,10.10.5.0/24,10.10.5.1,Office clients
+Network management,10.10.6.0/24,10.10.6.1,Management
