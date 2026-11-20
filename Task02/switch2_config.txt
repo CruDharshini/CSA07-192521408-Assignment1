@@ -1,0 +1,12 @@
+! Task 2 Switch2 configuration template
+enable
+configure terminal
+hostname Phone-SW2
+interface range fastEthernet 0/1-12
+ description IP_PHONE_PORTS
+exit
+interface fastEthernet 0/24
+ description ROUTER_G0_1
+exit
+end
+show interfaces status
