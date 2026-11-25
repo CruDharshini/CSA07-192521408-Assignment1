@@ -14,9 +14,9 @@
 | Task04 | capacity.py, capacity_output.txt, FILES_TO_ADD.md |
 | Task05 | wireless planning evidence if created |
 | Task06 | ethtool before/after output and switch config |
-| Task07 | crc.py, crc_output.txt, FILES_TO_ADD.md |
-| Task08 | hamming.py, hamming_output.txt, FILES_TO_ADD.md |
-| Task09 | window.py, window_output.txt, FILES_TO_ADD.md |
+| Task07 | crc.py, crc_output.txt |
+| Task08 | hamming.py, hamming_output.txt|
+| Task09 | window.py, window_output.txt|
 | Task10 | measurement_table.csv, Wireshark capture guide and filters – add your own ping/tracert output, .pcapng and labelled screenshot |
 | Task11 | optional design diagram/calculation evidence |
 | Task12 | revised design Packet Tracer guide and example addressing plan – save genuine revised.pkt and topology screenshot |
