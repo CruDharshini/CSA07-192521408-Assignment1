@@ -1,22 +1,33 @@
-# CSA07 – Computer Networks Assignment 1
+# Computer Networks – Assignment 1
 
-- Student: Dharshini
-- Register number: 192521408
-- Department: Information Technology
-  
-## Task folders
+Practical programs, configuration examples and working notes for CSA07.
 
-| Folder | Practical files  |
-|---|---|
-| Task01 | supporting traffic calculation evidence |
-| Task02 | Packet Tracer build guide, router/switch CLI templates|
-| Task03 | encapsulation.py, output, Wireshark capture guide and filters|
-| Task04 | capacity.py, capacity_output.txt |
-| Task05 | wireless planning evidence if created |
-| Task06 | ethtool before/after output and switch config |
-| Task07 | crc.py, crc_output.txt |
-| Task08 | hamming.py, hamming_output.txt|
-| Task09 | window.py, window_output.txt|
-| Task10 | measurement_table.csv, Wireshark capture guide and filters|
-| Task11 | optional design diagram/calculation evidence |
-| Task12 | revised design Packet Tracer guide and example addressing plan|
+## Python programs
+
+Run a program from this folder with Python 3:
+
+```bash
+python encapsulation.py
+python capacity.py
+python crc.py
+python hamming.py
+python window.py
+```
+
+The matching `*_output.txt` files contain reference output. Run the programs on your own computer before submission and capture your actual terminal output.
+
+## Network practical files
+
+- `packet_tracer_setup.md` and the router/switch configuration files: Packet Tracer setup reference.
+- `wireshark_capture_guide.md` and `wireshark_display_filters.txt`: frame capture practical.
+- `network_measurement_guide.md`, `network_display_filters.txt` and `measurement_table.csv`: traceroute and delay measurements.
+- `addressing_plan.csv` and `revised_design_packet_tracer_guide.md`: revised network design reference.
+
+## Before submission
+
+- Save your own Packet Tracer `.pkt` files after building and testing the topologies.
+- Save your own Wireshark `.pcapng` captures.
+- Fill `measurement_table.csv` with measurements collected on your computer.
+- Add genuine screenshots of your own program runs and network practicals if they are required by the assignment.
+
+Sample outputs and configuration templates are references; they are not proof that a local practical was performed.
